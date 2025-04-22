@@ -1,1 +1,18 @@
-/* You can add global styles to this file, and also import other style files */
+/* Border-box - Incl Padding & Border*/
+:root {
+    --green: #69F0AE;
+    --green-light: #B9F6CA;
+    --gray-light: #BDBDBD;
+    --dark-gray: #263238;
+    --black: #212121;
+}
+
+* {
+    margin: 0%;
+    box-sizing: border-box; 
+}
+
+body {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}

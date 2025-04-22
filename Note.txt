@@ -1,0 +1,16 @@
+Response design
+-------------
+https://medium.com/@pjlamb12/angular-cdks-breakpointobserver-b75df04a1cc2
+
+npm install --save @angular/cdk / npm install @angular/cdk@18 --save (Angular 18)
+
+LayoutModule, BreakpointObserver
+
+BreakpointObserver's subscribe
+{
+    "matches": true | false,
+    "breakpoints": {
+        "(max-width: 350px)": true | false,
+        "(max-width: 450px)": true | false
+    }
+}

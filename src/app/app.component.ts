@@ -8,12 +8,13 @@ import { WorkExpComponent } from "./work-exp/work-exp.component";
 import { ProjectComponent } from "./project/project.component";
 import { ContactComponent } from "./contact/contact.component";
 import { LayoutModule } from '@angular/cdk/layout';
+import { ResponsiveDirective } from './directives/responsive.directive';
 
 @Component({
   selector: 'app-root',
   standalone: true,
   imports: [RouterOutlet, SkillComponent, BannerComponent, PersonalInfoComponent, EducationComponent, 
-    WorkExpComponent, ProjectComponent, ContactComponent,
+    WorkExpComponent, ProjectComponent, ContactComponent, ResponsiveDirective,
     LayoutModule],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'

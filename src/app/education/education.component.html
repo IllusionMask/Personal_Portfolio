@@ -1,1 +1,10 @@
-<p>education works!</p>
+<div class="container">
+    <h1>Education</h1>
+
+    <section *ngFor="let edu of educationList">
+        <h2>{{edu.course}}</h2>
+        <h3>{{edu.institute}}</h3>
+        <h4>{{edu.duration}}</h4>
+        <h4>{{edu.score}}</h4>
+    </section>
+</div>

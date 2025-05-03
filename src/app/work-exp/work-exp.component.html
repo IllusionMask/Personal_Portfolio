@@ -1,1 +1,16 @@
-<p>work-exp works!</p>
+<div class="container">
+    <h1>Work Experience</h1>
+
+    <ul>
+        <li *ngFor="let workExp of workExperienceList">
+            <h2>{{workExp.role}}</h2>
+            <h3>{{workExp.company}}</h3>
+            <h4>{{workExp.duration}}</h4>
+            <ul>
+                <li *ngFor="let sen of workExp.description">
+                    {{sen}}
+                </li>
+            </ul>
+        </li>
+    </ul>
+</div>

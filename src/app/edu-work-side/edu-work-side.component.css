@@ -1,0 +1,8 @@
+:host.pc {
+    display: block;
+}
+
+:host.pc .container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
